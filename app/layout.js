@@ -1,9 +1,9 @@
 "use client";
-import "../i18n"; // Import your i18n configuration
+import "./i18n"; // Import your i18n configuration
 import localFont from "next/font/local";
-import { ThemeProvider } from "../context/ThemeContext";
+import { ThemeProvider } from "./context/ThemeContext";
 import "./globals.css";
-import Header from "../components/Header";
+import Header from "./components/Header";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
