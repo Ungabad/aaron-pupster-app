@@ -19,7 +19,7 @@ function Discover() {
   const handleLike = () => {
     setNotification(""); // Clear any existing notification
 
-    if (Math.random() < 0.2) {
+    if (Math.random() < 0.5) {
       // 20% chance to increment the friends counter
       setFriendsCounter((prev) => prev + 1); // Update friends counter
       setNotification("You made a new friend!"); // Show notification
